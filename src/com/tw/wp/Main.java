@@ -10,5 +10,10 @@ public class Main {
         auctioneer.setPrice(100);
         auctioneer.setPrice(200);
         auctioneer.setPrice(300);
+        auctioneer.removeObserver(bidderA);
+        System.out.println("After remove bidderA：");
+        auctioneer.setPrice(100);
+        auctioneer.setPrice(200);
+        auctioneer.setPrice(300);
     }
 }

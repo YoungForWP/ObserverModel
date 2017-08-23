@@ -11,3 +11,4 @@ public class Main {
         auctioneer.setPrice(3000);
     }
 }
+
